@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Views\Alquiler\" />
+    <Folder Include="Views\Metodo de pago\" />
+    <Folder Include="Views\Reportes\" />
+    <Folder Include="Views\Ventas\" />
+    <Folder Include="Views\Peliculas\" />
+  </ItemGroup>
+
+</Project>
