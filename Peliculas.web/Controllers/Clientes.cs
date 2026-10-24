@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Peliculas.web.Models;
 
@@ -18,7 +18,7 @@ namespace Peliculas.web.Controllers
 
                   Id=1,
                   Nombre="Alex",
-                  apellidos="Apellido Ejemplo",
+                  apellidos="Ejemplo",
                   Clave="123",
                   Correo="Alex@gmail.com",
                   Edad=18
@@ -31,7 +31,7 @@ namespace Peliculas.web.Controllers
 
                   Id=2,
                   Nombre="Alexa",
-                  apellidos="Apellido Ejemplo",
+                  apellidos="Ejemplo",
                   Clave="123d",
                   Correo="Alexa@gmail.com",
                   Edad=13
